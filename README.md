@@ -10,6 +10,12 @@
   4. 运行`npm run dev`启动开发服务器。
   5. 在浏览器中访问`http://localhost:3000`查看运行效果。
 
+> ⚠️注意
+> 
+> 程序运行需要在`src/stores/api.ts`文件中填入自己的API Key
+>
+> API Key请在[阿里云百炼平台](https://bailian.console.aliyun.com/#/api_key)获取
+
 ### 程序运行环境
 
   - 操作系统
