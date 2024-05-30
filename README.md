@@ -14,7 +14,7 @@
 > 
 > 程序运行需要在`src/stores/api.ts`文件中填入自己的API Key
 > 
-> API Key请在[**阿里云百炼平台**](https://bailian.console.aliyun.com/#/api_key)获取
+> API Key请在[**阿里云百炼**](https://bailian.console.aliyun.com/#/api_key)平台获取
 
 ### 程序运行环境
 
