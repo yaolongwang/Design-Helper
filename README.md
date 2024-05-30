@@ -1,42 +1,58 @@
 # 基于Vue的艺术设计辅助平台
 
-这是调用api的文档：
-https://help.aliyun.com/zh/dashscope/developer-reference/api-details?disableWebsiteRedirect=true#ccc3a8fb41yqq
+## 程序运行配置说明
 
+### 运行步骤
+
+  1. 安装Node.js和npm。
+  2. 在终端中进入项目根目录。
+  3. 运行`npm install`安装依赖包。
+  4. 运行`npm run dev`启动开发服务器。
+  5. 在浏览器中访问`http://localhost:3000`查看运行效果。
+
+### 程序运行环境
+
+  - 操作系统：Windows10+
+  - 开发语言及版本
+    - Vue.js: ^3.4.27
+    - TypeScript: ~5.4.5
+  - 构建工具
+    - Vite: ^5.2.11
+  - 相关库函数版本
+    - Element Plus: ^2.7.2
+    - Pinia: ^2.1.7
+    - Axios: ^1.6.8
+    - Vue Router: ^4.3.2
+    - @element-plus/icons-vue: ^2.3.1
+
+---
+
+## 模型更换说明
+
+api调用参考文档：
+https://help.aliyun.com/zh/dashscope/developer-reference/api-details?disableWebsiteRedirect=true#ccc3a8fb41yqq
 
 - 选择模型：阿里云百炼->[模型广场](https://bailian.console.aliyun.com/#/model-market)
 - 计费统计：阿里云百炼->计费管理
 - 查看扣费和余额: 阿里云控制台->账单管理->[账单详情](https://usercenter2.aliyun.com/finance/expense-report/expense-detail)
 
+---
+
 # bishe
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### 安装依赖
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 热编译
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 打包项目
 
 ```sh
 npm run build
