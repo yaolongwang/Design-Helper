@@ -30,7 +30,7 @@ export const useApiStore = defineStore('api', () => {
 
   //使用的API Key
   //Bearer <your-dashscope-api-key>
-  const apikey: string = "Bearer sk-PZlxBLdjwb"
+  const apikey: string = "Bearer 在这里填入你的API密钥"
 
   return { moxing, apikey }
 })
